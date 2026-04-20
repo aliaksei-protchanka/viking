@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-04-21",
+    "slots": [
+      {
+        "slot": "sniadanie",
+        "options": [
+          {"id": "b1", "name": "Owsianka z owocami", "macros": {"kcal": 420, "protein": 15, "fat": 10, "carbs": 65}},
+          {"id": "b2", "name": "Omlet z warzywami", "macros": {"kcal": 480, "protein": 32, "fat": 28, "carbs": 12}},
+          {"id": "b3", "name": "Jogurt z granolą", "macros": {"kcal": 350, "protein": 18, "fat": 9, "carbs": 50}}
+        ]
+      },
+      {
+        "slot": "obiad",
+        "options": [
+          {"id": "o1", "name": "Kurczak z ryżem", "macros": {"kcal": 720, "protein": 55, "fat": 18, "carbs": 80}},
+          {"id": "o2", "name": "Łosoś z kaszą", "macros": {"kcal": 800, "protein": 48, "fat": 35, "carbs": 60}, "allergens": ["fish"]},
+          {"id": "o3", "name": "Curry z ciecierzycą", "macros": {"kcal": 650, "protein": 25, "fat": 20, "carbs": 90}}
+        ]
+      },
+      {
+        "slot": "kolacja",
+        "options": [
+          {"id": "k1", "name": "Sałatka z tuńczykiem", "macros": {"kcal": 420, "protein": 35, "fat": 18, "carbs": 20}, "allergens": ["fish"]},
+          {"id": "k2", "name": "Wrap z indykiem", "macros": {"kcal": 520, "protein": 40, "fat": 18, "carbs": 45}},
+          {"id": "k3", "name": "Twarożek z warzywami", "macros": {"kcal": 380, "protein": 38, "fat": 12, "carbs": 25}}
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-22",
+    "slots": [
+      {
+        "slot": "sniadanie",
+        "options": [
+          {"id": "b4", "name": "Jajecznica na maśle", "macros": {"kcal": 460, "protein": 28, "fat": 32, "carbs": 8}},
+          {"id": "b5", "name": "Naleśniki z serem", "macros": {"kcal": 540, "protein": 22, "fat": 18, "carbs": 70}}
+        ]
+      },
+      {
+        "slot": "obiad",
+        "options": [
+          {"id": "o4", "name": "Wołowina po burgundzku", "macros": {"kcal": 780, "protein": 50, "fat": 35, "carbs": 55}},
+          {"id": "o5", "name": "Makaron z krewetkami", "macros": {"kcal": 700, "protein": 40, "fat": 18, "carbs": 85}, "allergens": ["seafood"]}
+        ]
+      },
+      {
+        "slot": "kolacja",
+        "options": [
+          {"id": "k4", "name": "Pieczony łosoś", "macros": {"kcal": 480, "protein": 42, "fat": 25, "carbs": 10}, "allergens": ["fish"]},
+          {"id": "k5", "name": "Pierś z indyka grillowana", "macros": {"kcal": 410, "protein": 50, "fat": 12, "carbs": 18}}
+        ]
+      }
+    ]
+  }
+]

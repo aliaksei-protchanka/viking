@@ -1,0 +1,32 @@
+# --- secrets / personal data ---
+.env
+.env.*
+!.env.example
+*.har
+*.har.gz
+
+# --- runtime artefacts ---
+captures/
+!captures/.gitkeep
+plans/
+.viking/
+
+# --- python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- editors / OS ---
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
